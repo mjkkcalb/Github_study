@@ -5,22 +5,47 @@
 1. Git = 소스코드 및 파일 변경내역을 저장하는 분산 버전 관리 시스템
 2. GitHub, Bitbucket, Gitlab 등의 Git 기반 버전 관리 호스팅 서비스들이 있다.
 
-### help 명령어 ###
-```
-git help -a : 상세히 명령어들 살펴보기
-git 명령어 -h : 명령어 옵션 보기
-git help 명령어 : web에서 해당 명령어 상세보기
-```
+### Git과 Github 차이점 ###
 
-### git에 기본 에디터 변경 ###
-```
-git config --global core.editor "editor이름"
-git config --global core.editor "code --wait" #VSC를 기본 에디터로 설정, wait을 해주어야 잠시 멈추었다가 VSC에 열린 code 수정 창을 닫으면 CLI가 지속 실행.
-```
+1) Git
+* 로컬 저장소를 사용하기 때문에, 다른 사람들이 나의 작업 내용을 볼 수 없다.
 
-### git에 기본 설정 변경 ###
-```
-git config global -e #global 설정
-```
+2) Github
+* 개인의 로컬 서버 밖에서 Git 버전 프로젝트를 공유하고 기록하는 온라인 데이터 베이스.
+* 저장소를 깃허브에 제공해주는 클라우스 서버
+* 다른 사람들과 협업 시 소스코드 공유가 가능하며, 나의 작업 내용을 다른 사람들이 확인 가능하다.
 
-## Git이란? ##
+<br> 
+
+## Github 기본 용어 정리 ##
+
+1. Repository
+  * 'rep' 또는 '저장소'라고 불리기도 한다
+  * 프로젝트 저장 공간
+
+2. Local
+  * 사용하고 있는 컴퓨터 혹은 노트북
+
+3. Remote
+  * 원격 저장소
+
+4. Branch
+  * rep 공간에서 독립적으로 작업을 하기 위한 공간
+    
+6. Commit
+  * 소스코드의 업데이트 확정. 확정이 될 경우 코드 상태를 메세지와 함께 Git rep에 저장
+  * 로컬 저장소에는 변경이 반영되지만, 원격 저장소에는 아직 반영되지 않은 상태 ( push 필요)
+    
+7. Pull
+  * 원격저장소의 내용을 로컬저장소로 가져온다
+    
+9. Push
+  * Commit 내용을 원격저장소로 업로드
+    
+11. CLI
+  * `Command-line interface`의 줄임말
+  * 명령어로 인터페이스 / 터미널을 통해 컴퓨터와 상호작용
+
+12. GUL
+  * `Graphical User Interface`의 줄임말
+  * 입출력 등의 기능을 아이콘 등의 그래픽으로 나타낸 것

@@ -49,3 +49,83 @@
 * GUL
   * `Graphical User Interface`의 줄임말
   * 입출력 등의 기능을 아이콘 등의 그래픽으로 나타낸 것
+
+<br> 
+
+## Github 시작 ##
+
+### 사용자 정보 등록 ###
+`git config --global user.name "Your Name"`<br>
+`git config --global user.email "you@example.com"`<br>
+
+### git 상태 확인 방법 ###
+​
+`$ git log` // 모든 커밋 이력 확인<br>
+`$ git log --oneline` // 모든 커밋에 대한 간단한 이력 확인<br>
+`$ git log --oneline --graph` // 이력 그래프<br>
+`$ git status` <- 현재 상태 확인<br>
+
+### 로컬 저장 정보 삭제 ###
+
+`git config --list` <- 정보확인<br>
+`git config --unset --global user.name`<br>
+`git config --unset --global user.email`<br>
+
+### 디렉토리 명령어로 생성 ###
+
+`$ mkdir 폴더명` // 저장소 생성<br>
+폴더명과 폴더명 사이에 ^ 부호를 넣어 한번에 여러개의 폴더 생성 가능<br>
+
+
+### 파일 명령어로 생성 ###
+
+`$ touch 파일명` //  git에서 파일 생성<br>
+폴더명과 폴더명 사이에 ^ 부호를 넣어 한번에 여러개의 폴더 생성 가능<br>
+
+### 파일 등록 ###
+
+`$ git add 파일명.확장자`<br>
+`$ git add .` // 폴더 안 업로드가 필요한 모든 파일 등록. 간편해서 많이 사용된다 <br>
+
+
+### 커밋 메세지 작성 ###
+
+`$ git commit -m "작업내용 or 파일 설명"` // 구체적으로 작성, 커밋을 위해서는 필수 입력 필요<br>
+`$ git commit -am "파일 설명"` // add, commit 동시에 설정 가능 (업로드가 되어있어야 사용가능)<br>
+
+
+
+<br> 
+
+## React 배포 ##
+1. 배포하고자 하는 폴더에 cmd를 열어준다
+2. `$npm i gh-page` 입력
+3. package.json 폴더 name 위에 homepage 추가
+4. package.json 폴더 scripts 쪽에 deploy 추가
+   ```
+   EX)
+   {
+  "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
+  "name": "xxx",
+  "version": "0.1.0",
+   ...
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build" // deploy 명령어 추가
+  },
+   ```
+5. `$ npm run build` 입력
+6. Github rep 와 파일 연결 및 업로드 후 페이지 생성
+7. `$ npm run depoly` 입력
+8. github settings에서 pages gh-page로 변경
+
+
+
+
+
+

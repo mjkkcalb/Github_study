@@ -103,11 +103,11 @@
 3. package.json 폴더 name 위에 homepage 추가
 4. package.json 폴더 scripts 쪽에 deploy 추가
    
-   ```
+```
    EX.
-  "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
-  "deploy": "gh-pages -d build" // deploy 명령어 추가
-   ```
+  {"homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
+  "deploy": "gh-pages -d build" // deploy 명령어 추가}
+```
 
 5. `$ npm run build` 입력
 6. Github rep 와 파일 연결 및 업로드 후 페이지 생성

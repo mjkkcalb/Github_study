@@ -97,7 +97,7 @@
 
 <br> 
 
-##⚙️ React 배포 ##
+## ⚙️ React 배포 ##
 1. 배포하고자 하는 폴더에 cmd를 열어준다
 2. `$npm i gh-page` 입력
 3. package.json 폴더 name 위에 homepage 추가

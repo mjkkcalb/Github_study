@@ -104,9 +104,12 @@
 4. package.json 폴더 scripts 쪽에 deploy 추가
    
 ```
-   EX.
-  {"homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
-  "deploy": "gh-pages -d build" // deploy 명령어 추가}
+   EX
+
+  {
+  "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
+  "deploy": "gh-pages -d build" // deploy 명령어 추가
+}
 ```
 
 5. `$ npm run build` 입력

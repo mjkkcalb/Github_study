@@ -102,6 +102,7 @@
 2. `$npm i gh-page` 입력
 3. package.json 폴더 name 위에 homepage 추가
 4. package.json 폴더 scripts 쪽에 deploy 추가
+5. 
    ```
    EX)
    {
@@ -119,6 +120,7 @@
     "deploy": "gh-pages -d build" // deploy 명령어 추가
   },
    ```
+
 5. `$ npm run build` 입력
 6. Github rep 와 파일 연결 및 업로드 후 페이지 생성
 7. `$ npm run depoly` 입력

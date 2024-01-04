@@ -106,10 +106,8 @@
 ```
    EX
 
-  {
-  "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
-  "deploy": "gh-pages -d build" // deploy 명령어 추가
-}
+  { "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
+  "deploy": "gh-pages -d build" // deploy 명령어 추가}
 ```
 
 5. `$ npm run build` 입력

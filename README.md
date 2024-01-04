@@ -19,33 +19,33 @@
 
 ## Github 기본 용어 정리 ##
 
-1. Repository
+* Repository
   * 'rep' 또는 '저장소'라고 불리기도 한다
   * 프로젝트 저장 공간
 
-2. Local
+* Local
   * 사용하고 있는 컴퓨터 혹은 노트북
 
-3. Remote
+* Remote
   * 원격 저장소
 
-4. Branch
+* Branch
   * rep 공간에서 독립적으로 작업을 하기 위한 공간
     
-6. Commit
+* Commit
   * 소스코드의 업데이트 확정. 확정이 될 경우 코드 상태를 메세지와 함께 Git rep에 저장
   * 로컬 저장소에는 변경이 반영되지만, 원격 저장소에는 아직 반영되지 않은 상태 ( push 필요)
     
-7. Pull
+* Pull
   * 원격저장소의 내용을 로컬저장소로 가져온다
     
-9. Push
+* Push
   * Commit 내용을 원격저장소로 업로드
     
-11. CLI
+* CLI
   * `Command-line interface`의 줄임말
   * 명령어로 인터페이스 / 터미널을 통해 컴퓨터와 상호작용
 
-12. GUL
+* GUL
   * `Graphical User Interface`의 줄임말
   * 입출력 등의 기능을 아이콘 등의 그래픽으로 나타낸 것

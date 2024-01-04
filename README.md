@@ -105,7 +105,6 @@
 5. 
    ```
    EX)
-   {
   "homepage": "https://xxxx.github.io/portfolio",  // 깃헙 페이지 주소 추가
   "name": "xxx",
   "version": "0.1.0",
